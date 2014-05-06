@@ -11,6 +11,12 @@ describe('express-server', function() {
       var output = expressServer.ui.output.trim().split('\n');
 
       assert.deepEqual(output.length, 2, 'expected extra line for proxy');
+
+      assert.deepEqual(
+        output[0],
+        'Proxying to http://localhost:3000/',
+        'expected correct proxy URI'
+      );
     });
   });
 });

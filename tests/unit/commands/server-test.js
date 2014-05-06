@@ -63,6 +63,6 @@ describe('server command', function() {
 
     assert.equal(serveRun.called, 1, 'expected run to be called once');
 
-    assert.equal(options.proxy, 'http://localhost:3000/', 'has correct port');
+    assert.equal(options.proxy, 'http://localhost:3000/', 'has correct proxy');
   });
 });
