@@ -35,8 +35,7 @@
   "dependencies": {
     "bower": "^1.3.2",
     "bower-config": "0.5.0",
-    "broccoli": "0.9.0",
-    "broccoli-bower": "0.2.0",
+    "broccoli": "0.11.0",
     "broccoli-env": "0.0.1",
     "broccoli-es6-concatenator": "0.1.4",
     "broccoli-static-compiler": "0.1.4",
@@ -66,13 +65,12 @@
     "walk-sync": "0.1.2",
     "broccoli-replace": "0.1.6",
     "broccoli-merge-trees": "0.1.3",
-    "broccoli-template": "0.1.1",
     "broccoli-es6-import-validate": "0.1.0",
     "readline2": "0.1.0",
     "broccoli-export-tree": "0.3.0",
-    "broccoli-jshint": "0.3.2",
+    "broccoli-jshint": "0.3.3",
     "diff": "~1.0.8",
-    "broccoli-kitchen-sink-helpers": "0.2.2"
+    "broccoli-concat": "0.0.6"
   },
   "devDependencies": {
     "chai": "^1.9.1",
